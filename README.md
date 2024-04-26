@@ -1,2 +1,2 @@
-# NTI-Final-Project
-NTI-Final-Project
+# SimpleDjangoApp
+This repo is used to Testing pipelines 

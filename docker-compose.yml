@@ -1,0 +1,12 @@
+version: '3'
+services:
+  my_service:
+    image: django:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+
+#use this command to build and run docker compose
+#docker-compose -f docker-compose.yml up -d
