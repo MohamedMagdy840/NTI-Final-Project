@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         DOCKER_IMAGE_NAME = "django"
-        ECR_REPO_URL = "123456789012.dkr.ecr.us-west-2.amazonaws.com/your-repo"
+        ECR_REPO_URL = "590183792206.dkr.ecr.us-east-1.amazonaws.com/ecr_repository"
         AWS_DEFAULT_REGION = "us-east-1"
         K8S_YAML_FILE = "django.yml"
         DOCKER_TAG = "${DOCKER_IMAGE_NAME}:${BUILD_NUMBER}"
