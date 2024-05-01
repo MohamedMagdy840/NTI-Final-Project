@@ -43,7 +43,4 @@ This project showcases an end-to-end DevOps pipeline designed to automate the de
 - Ensured scalability and reliability of the application through containerization and Kubernetes orchestration.
 - Enhanced maintainability and reproducibility of the deployment process with Infrastructure as Code (IaC) principles using Terraform and Ansible.
 
-## Usage
-
-1. **Clone the repository:**
 
