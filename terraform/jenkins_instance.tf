@@ -6,7 +6,7 @@ resource "aws_instance" "jenkins_instance" {
   ami                         = "ami-080e1f13689e07408"
   instance_type               = "t3.medium"
   subnet_id                   = aws_subnet.public_subnet_01.id
-  key_name                    = "nti"  
+  key_name                    = #your key pair "here" 
   associate_public_ip_address = true
   root_block_device {
     volume_size = 15
